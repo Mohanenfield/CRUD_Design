@@ -1,0 +1,14 @@
+.table{
+    width:100%;
+}
+.post{
+    background-image:"https://www.bootstrapdash.com/wp-content/uploads/2017/08/Use-Bootstrap-4-With-ReactJS.jpg";
+}
+
+img{
+    width: 500px;
+    height: 500px;;
+}
+body{
+    background-color:black;
+}
