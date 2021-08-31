@@ -21,9 +21,7 @@ class PostApp extends Component {
     }
 
     componentDidMount = () => this.getPosts();
-
-    // componentDidMount = () => this.getUser();
-
+    
     createPost = async () => {
         try {
             const { data } = await axios.post("https://jsonplaceholder.typicode.com/posts",
@@ -144,8 +142,7 @@ class PostApp extends Component {
                                         <Button onClick={() => this.selectPost(post)}>Edit</Button>
                                         <Button variant="danger" onClick={() => this.deletePost(post.id)}>Delete</Button>
                                         <Button onClick={() => this.getUser(post.userId)}>Get User</Button>
-                                        {/* <Button >Get Comments</Button> */}
-                                    </td>
+                                                                            </td>
                                 </tr>
                             );
                         })}
